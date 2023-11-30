@@ -15,6 +15,7 @@
 		664E89F82B18A56D002CD69B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664E89F62B18A56D002CD69B /* LaunchScreen.storyboard */; };
 		664E8A032B18A56D002CD69B /* EjemploUserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E8A022B18A56D002CD69B /* EjemploUserDefaultsTests.swift */; };
 		664E8A0E2B18A56D002CD69B /* EjemploUserDefaultsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E8A0D2B18A56D002CD69B /* EjemploUserDefaultsUITests.swift */; };
+		664E8A1F2B18A72B002CD69B /* ManagerUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E8A1E2B18A72B002CD69B /* ManagerUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		664E8A092B18A56D002CD69B /* EjemploUserDefaultsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploUserDefaultsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		664E8A0D2B18A56D002CD69B /* EjemploUserDefaultsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploUserDefaultsUITests.swift; sourceTree = "<group>"; };
 		664E8A0F2B18A56D002CD69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664E8A1E2B18A72B002CD69B /* ManagerUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				664E89F42B18A56D002CD69B /* Assets.xcassets */,
 				664E89F62B18A56D002CD69B /* LaunchScreen.storyboard */,
 				664E89F92B18A56D002CD69B /* Info.plist */,
+				664E8A1E2B18A72B002CD69B /* ManagerUserDefaults.swift */,
 			);
 			path = EjemploUserDefaults;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				664E89F02B18A56C002CD69B /* ViewController.swift in Sources */,
 				664E89EC2B18A56C002CD69B /* AppDelegate.swift in Sources */,
+				664E8A1F2B18A72B002CD69B /* ManagerUserDefaults.swift in Sources */,
 				664E89EE2B18A56C002CD69B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
